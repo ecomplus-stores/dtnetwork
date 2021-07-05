@@ -1,10 +1,16 @@
 # Template vendors and output files
 /dist
+/cache
 /.serve
+/.deploy
+/.ecom.json
 /template/**/storefront-template
 /template/public/assets/vendor/
 /template/scss/styles.scss
 /template/public/admin/config.yml
+
+# Firebase credentials
+*firebase-admin*.json
 
 # Logs
 logs
